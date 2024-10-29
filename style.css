@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    margin: 0 auto;
+}
+
+.cube {
+    width: 300px;
+    height: 300px;
+}
+
+.cube:first-child {
+    position: relative;
+    top: 100px;
+    left: 350px;
+    background-color: #ff8888;
+}
+
+.cube:nth-child(2) {
+    position: relative;
+    z-index: 2;
+    left: 250px;
+    top: 300px;
+    background-color: #7E8AEB;
+}
+
+.cube:nth-child(3) {
+    position: relative;
+    top: 500px;
+    left: 150px;
+    background-color: #4DEF99;
+}
